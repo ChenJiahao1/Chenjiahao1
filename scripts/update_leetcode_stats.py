@@ -616,8 +616,6 @@ def render_heatmap_svg(entries, total_active_days=None, streak=None, range_label
 
 def render_readme(user_slug, contest_rating, total_solved, difficulty_counts, difficulty_totals):
     lines = [
-        "## LeetCode",
-        "",
         f"[![LeetCode Rating](https://img.shields.io/badge/LeetCode_Rating-{format_plain_number(contest_rating)}-orange?logo=leetcode)](https://leetcode.cn/u/{user_slug}/)",
         "",
         f"![LeetCode Heatmap](https://leetcard.jacoblin.cool/{user_slug}?ext=heatmap&theme=light&site=cn)",

@@ -28,7 +28,6 @@ class UpdateLeetCodeStatsTests(unittest.TestCase):
             difficulty_totals={"Easy": 1057, "Medium": 2239, "Hard": 993},
         )
 
-        self.assertIn("## LeetCode", readme)
         self.assertIn(
             "[![LeetCode Rating](https://img.shields.io/badge/LeetCode_Rating-2009-orange?logo=leetcode)]",
             readme,
@@ -37,6 +36,7 @@ class UpdateLeetCodeStatsTests(unittest.TestCase):
             "![LeetCode Heatmap](https://leetcard.jacoblin.cool/chen_h-i?ext=heatmap&theme=light&site=cn)",
             readme,
         )
+        self.assertNotIn("## LeetCode", readme)
         self.assertNotIn("当前做题进度", readme)
         self.assertNotIn("总:", readme)
         self.assertNotIn("简单:", readme)
