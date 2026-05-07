@@ -1,3 +1,3 @@
-[![LeetCode Rating](https://img.shields.io/badge/LeetCode_Rating-2120-orange?logo=leetcode)](https://leetcode.cn/u/chen_h-i/)
+[![LeetCode Rating](https://img.shields.io/badge/LeetCode_Rating-2117-orange?logo=leetcode)](https://leetcode.cn/u/chen_h-i/)
 
 ![LeetCode Heatmap](https://leetcard.jacoblin.cool/chen_h-i?ext=heatmap&theme=light&site=cn)
